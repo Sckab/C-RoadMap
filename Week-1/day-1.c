@@ -18,6 +18,15 @@ int main() {
 
     // Define a character
     char a = 'a';
+
+    // Define a string
+    char name[] = "Giuliano";
+
+    // define a number
+    int age = 16;
+
+    // define another char
+    char favoriteProgrammingLanguage = 'C';
  
     // Print a string
     printf("Hello World\n");
@@ -29,7 +38,12 @@ int main() {
     printf("%d\n", y);
 
     // Print a character
-    printf("%c\n", a);
+    printf("%c\n\n", a);
+
+    // Print my informations
+    printf("My name is %s\n", name);
+    printf("My age is %d\n", age);
+    printf("My favorite programming language is %c\n", favoriteProgrammingLanguage);
     
     return 0;
 
