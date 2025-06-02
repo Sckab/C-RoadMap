@@ -38,7 +38,7 @@ It focuses on fundamental kernel functionality such as screen output, input hand
 ---
 
 ## 📁 Project Structure
-
+```
 nexora/
 ├── boot/             # GRUB configuration and boot sector
 ├── kernel/           # C source files for the kernel
@@ -47,7 +47,7 @@ nexora/
 ├── linker.ld         # Linker script
 ├── Makefile          # Build script
 └── README.md
-
+```
 ---
 
 ## 🚦 Build & Run
