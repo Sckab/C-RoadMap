@@ -66,10 +66,10 @@ qemu-system-x86_64 -cdrom dist/nexora.iso
 
 ## 🛠 Features Implemented (So Far)
 
-* [x] GRUB bootable ISO
-* [x] VGA text printing with cursor support
-* [x] Keyboard input reading via IRQ1
-* [x] Custom printf implementation
+* [ ] GRUB bootable ISO
+* [ ] VGA text printing with cursor support
+* [ ] Keyboard input reading via IRQ1
+* [ ] Custom printf implementation
 * [ ] Physical memory manager (PMM)
 * [ ] Paging + virtual memory support
 * [ ] Syscall table
