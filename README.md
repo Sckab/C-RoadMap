@@ -1,36 +1,36 @@
 # 🧠 Learn C in 60 Days – From Basics to Kernel Dev
 
-> A 60-day journey to master the C language — from your first `hello world` all the way to building a mini kernel, passing through shells, IDEs, terminal emulators, file parsers, debuggers, kernel modules and much more.
+> A 60-day journey to master the C language — from your first `hello world` all the way to building a mini kernel, passing through shells, IDEs, terminal UIs, file parsers, system programming, and kernel modules.
 
 ---
 
 ## 🗂 Repository Structure
 
 This repo is divided into **8 weekly folders**, each containing:
-- 📂 `day-01`, `day-02`, ... → daily code, exercises, notes
+- 📂 `Day-01`, `Day-02`, ... → daily code, exercises, notes
 - 📁 `mini-project/` → weekly project challenge
 - 📄 `README.md` → weekly goals, sources, and tips
 
 📦 Root structure:
 ```
-learn-c-in-60-days/
+learn-c-roadmap/
 │
-├── week-01/
-│    ├── day-01/
-│    ├── day-02/
+├── Week-1/
+│    ├── Day-01/
+│    ├── Day-02/
 │    ├── ...
 │    ├── mini-project/
 │    └── README.md
 │
-├── week-02/
+├── Week-2/
 │    └── ...
 │
 ├── ...
 │
-├── week-08/
+├── Week-8/
 │    └── ...
 │
-├── capstone/
+├── Capstone/
 │    └── README.md
 │
 └── README.md
@@ -38,10 +38,46 @@ learn-c-in-60-days/
 
 ---
 
+## 📘 Weekly Breakdown
+
+### 🔹 Week 1 – Intro to C & First Programs
+**Mini Project:** CLI Calculator with modular structure and Makefile
+**Focus:** Basic syntax, variables, conditionals, loops, functions
+
+### 🔹 Week 2 – Pointers, Memory & Modular Code
+**Mini Project:** Student Record System with dynamic memory
+**Focus:** Pointers, arrays, strings, structs, dynamic allocation
+
+### 🔹 Week 3 – Files, Command-Line Apps & Debugging
+**Mini Project:** CLI To-Do Manager with file persistence
+**Focus:** File I/O, command-line arguments, GDB, Valgrind
+
+### 🔹 Week 4 – Data Structures, Linked Lists & Hash Tables
+**Mini Project:** INI File Parser with hash tables
+**Focus:** Linked lists, stacks, queues, hash tables
+
+### 🔹 Week 5 – Terminal UI, Threads & CLI UX
+**Mini Project:** Terminal Dashboard App with real-time features
+**Focus:** ncurses, ANSI codes, pthreads, mutexes
+
+### 🔹 Week 6 – Unix System Programming: Processes, Shells & Signals
+**Mini Project:** TinyShell (Basic Shell Implementation)
+**Focus:** fork(), exec(), pipes, signals
+
+### 🔹 Week 7 – Kernel Modules, Devices & Bootloaders
+**Mini Project:** Kernel Toy Boot + Module
+**Focus:** Kernel modules, char devices, syscalls, bootloaders
+
+### 🔹 Week 8 – Capstone Project & Mastery
+**Mini Project:** Nexora Kernel (or chosen capstone)
+**Focus:** Large project completion, reverse engineering
+
+---
+
 ## 🧭 How to Use This Roadmap
 
 ### Daily:
-- Go into the folder for the current day (`week-XX/day-YY`)
+- Go into the folder for the current day (`Week-XX/Day-YY`)
 - Read the day’s task or notes
 - Study, experiment, code, debug — and most importantly, **have fun**
 - Track your progress using Git (frequent commits!)
