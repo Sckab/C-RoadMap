@@ -4,55 +4,53 @@
  *    I'm so excited
  */
 
-#include <stdio.h>
 #include "ask_numbers.h"
 #include "calculator.h"
 #include "globals.h"
+#include <stdio.h>
 
 void setup() {
-    
-    ask_numbers();
-    ask_operator();
 
-    switch (operation) {
-        case '+':
-            add(num1, num2);
-            break;
-        case '-':
-            subtract(num1, num2);
-            break;
-        case '*':
-            multiply(num1, num2);
-            break;
-        case '/':
-            if (num2 == 0 || num1 == 0) {
-                printf("Cannot divide by 0\n");
-                setup();
-            } else {
-                divide(num1, num2);
-            }
-            break;
-    }
+	ask_numbers();
+	ask_operator();
 
+	switch (operation) {
+	case '+':
+		add(num1, num2);
+		break;
+	case '-':
+		subtract(num1, num2);
+		break;
+	case '*':
+		multiply(num1, num2);
+		break;
+	case '/':
+		if (num2 == 0 || num1 == 0) {
+			printf("Cannot divide by 0\n");
+			setup();
+		} else {
+			divide(num1, num2);
+		}
+		break;
+	}
 }
 
 int main() {
 
-    printf("Welcome to the calculator\n");
+	printf("Welcome to the calculator\n");
 
-    setup();
+	setup();
 
-    printf("You want to do another calculation? (y/n)\n");
-    char answer;
-    scanf(" %c", &answer);
-    if (answer == 'y' || answer == 'Y') {
-        setup();
-    } else {
-        printf("Thanks for using the calculator\n");
-    }
- 
-    return 0;
+	printf("You want to do another calculation? (y/n)\n");
+	char answer;
+	scanf(" %c", &answer);
+	if (answer == 'y' || answer == 'Y') {
+		setup();
+	} else {
+		printf("Thanks for using the calculator\n");
+	}
 
+	return 0;
 }
 
 /*
